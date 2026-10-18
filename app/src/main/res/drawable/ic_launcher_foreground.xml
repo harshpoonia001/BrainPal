@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Dynamic Island Capsule Glow -->
+    <path
+        android:fillColor="#2238BDF8"
+        android:pathData="M34,24L74,24A10,10 0,0 1,84 34L84,34A10,10 0,0 1,74 44L34,44A10,10 0,0 1,24 34L24,34A10,10 0,0 1,34 24z" />
+    <!-- Dynamic Island Capsule Pill -->
+    <path
+        android:fillColor="#090D16"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:pathData="M35,26L73,26A8,8 0,0 1,81 34L81,34A8,8 0,0 1,73 42L35,42A8,8 0,0 1,27 34L27,34A8,8 0,0 1,35 26z" />
+    <!-- Capsule Status Dot & Counter Bars -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M37,34m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M46,32h18v4h-18z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,31h6v6h-6z" />
+
+    <!-- Stylized Bold Brain Silhouette (Left Hemisphere) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M52,48 C43,48 36,53 36,61 C33,63 32,68 35,72 C35,78 41,83 48,83 L52,83 Z" />
+    <!-- Stylized Bold Brain Silhouette (Right Hemisphere) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M56,48 C65,48 72,53 72,61 C75,63 76,68 73,72 C73,78 67,83 60,83 L56,83 Z" />
+    <!-- Neural Gyri Cutouts / Accents -->
+    <path
+        android:strokeColor="#0B132B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M41,59 C45,59 47,62 47,65 M40,70 C44,70 47,68 49,72 M67,59 C63,59 61,62 61,65 M68,70 C64,70 61,68 59,72" />
+</vector>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BrainPal</string>
+    <string name="accessibility_service_label">BrainPal Reel &amp; Shorts Detector</string>
+    <string name="accessibility_service_description">Detects vertical short-form video swipes strictly inside Instagram Reels and YouTube Shorts to update your live BrainPal Dynamic Island counter and Digital Wellbeing analytics. Home feeds and personal messages are never tracked.</string>
+    <string name="overlay_notification_channel_name">BrainPal Dynamic Island Overlay</string>
+    <string name="overlay_notification_title">BrainPal Reel Guard Ready</string>
+    <string name="overlay_notification_text">Dynamic Island activates automatically when Instagram Reels or YouTube Shorts is open.</string>
+    <string name="dashboard_title">Digital Wellbeing</string>
+    <string name="dashboard_subtitle">Short-Form Video Telemetry &amp; Brain Health</string>
+    <string name="permission_accessibility_title">Reel &amp; Shorts Detection Engine</string>
+    <string name="permission_accessibility_desc">Grant Accessibility Service access to detect when Instagram Reels or YouTube Shorts are open and count vertical swipes.</string>
+    <string name="permission_overlay_title">Dynamic Island Capsule</string>
+    <string name="permission_overlay_desc">Allow display over other apps so the Dynamic Island capsule appears automatically when watching Reels or Shorts.</string>
+</resources>

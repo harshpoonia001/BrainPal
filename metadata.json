@@ -1,0 +1,6 @@
+{
+  "name": "BrainPal",
+  "description": "Curb short-form video addiction with real-time Reel tracking, a Dynamic Island brain health capsule overlay, a 4-week rolling Room database, and a Digital Wellbeing analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
