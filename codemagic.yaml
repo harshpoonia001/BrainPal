@@ -1,1 +1,19 @@
-null
+workflows:
+  android-debug:
+    name: BrainPal Android APK
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+
+    scripts:
+      - name: Set Android SDK location
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+
+      - name: Build Debug APK
+        script: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
+      - app/build/outputs/apk/**/*.apk
